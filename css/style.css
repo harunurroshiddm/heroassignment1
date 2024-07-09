@@ -25,11 +25,12 @@ p{
     line-height: 26px;
     letter-spacing: 0%;
     text-align: center;
+    opacity: 0.7;
 }
 
 button{
     padding: 12px 20px;
-    background-color: #fff;
+    background-color: rgb(255, 255, 255);
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
 }
@@ -43,7 +44,7 @@ nav {
 
 }
 
-nav h1{
+nav h3{
     font-size: 28px;
     font-weight: 800;
     line-height: 33px;
@@ -55,4 +56,73 @@ nav button{
     border-radius: 8px;
     opacity: 0.8;
     padding: 17px 24px;
+}
+
+nav button:hover{
+    cursor: pointer;
+    background-color: rgb(13, 19, 33);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(13, 19, 33);
+}
+
+.hero{
+    background-image: url(../media/Hero-bg.png);
+    /* background-repeat: repeat-x; */
+    background-size: cover;
+    background-position: center;
+    /* height: 652px; */
+    text-align: center;
+}
+
+.hero-content{
+    width: 998px;
+    margin: 0 auto;
+    padding: 26px 0;
+}
+
+/* .hero img{
+    margin-top: 26px;
+} */
+
+.hero-content h1{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    margin: 24px 0px;
+}
+
+.hero-content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 24px 0px;
+}
+
+.hero-content button{
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 1;
+    padding: 21px 24px;
+    margin-top: 24px;
+}
+
+.hero-content button:hover{
+    border: 1px solid rgb(13, 19, 33);
+    background-color: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+}
+
+.hero-content button a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.hero-content button a:hover{
+    color: rgb(13, 19, 33);
 }
