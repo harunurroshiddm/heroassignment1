@@ -161,21 +161,43 @@ main{
     margin: 0 auto;
 }
 
-.why-web-dev-head{
+.main-head{
     text-align: center;
     padding: 48px;
     margin: 0 auto;
 }
 
-.why-web-dev-head h3{
+.main-head h3{
     margin: 24px 0;
 }
 
-.why-web-dev-body{
+.main-body{
     display: flex;
     padding: 48px;
 }
 
-.why-web-dev-body p{
+.main-body p{
     text-align: left;
+}
+
+.main-section-head{
+    padding: 80px 97px;
+    margin: 0 auto;
+}
+
+.my-inspiration .main-section-head{
+    padding-bottom: 0;
+}
+
+.my-inspiration-video{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+
+}
+
+.my-inspiration-video iframe{
+    border-radius: 16px;
+    width: 100%;
 }
