@@ -6,8 +6,6 @@
     font-style: normal;
 }
 
-}
-
 body{
     width: 1440px;
     margin: 0 auto;
@@ -15,6 +13,21 @@ body{
 
 h1, h2, h3, h4, h5, h6{
     color: rgb(13, 19, 33);
+}
+
+h3{
+    font-size: 32px;
+    font-weight: 800;
+}
+
+h4{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 16px 0px;
 }
 
 p{
@@ -26,6 +39,7 @@ p{
     letter-spacing: 0%;
     text-align: center;
     opacity: 0.7;
+    margin: 16px 0px;
 }
 
 button{
@@ -33,6 +47,17 @@ button{
     background-color: rgb(255, 255, 255);
     border: 1px solid rgb(13, 19, 33);
     opacity: 0.7;
+    font-weight: 500;
+}
+
+button:hover{
+    padding: 12px 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(13, 19, 33);
+    border: 1px solid rgb(13, 19, 33);
+    opacity: 0.7;
+    cursor: pointer;
+    font-weight: 500;
 }
 
 nav {
@@ -41,7 +66,6 @@ nav {
     width: 1140px;
     margin: 0 auto;
     padding: 30px 0;
-
 }
 
 nav h3{
@@ -67,7 +91,7 @@ nav button:hover{
 
 .hero{
     background-image: url(../media/Hero-bg.png);
-    /* background-repeat: repeat-x; */
+    background-repeat: repeat-x; */
     background-size: cover;
     background-position: center;
     /* height: 652px; */
@@ -125,4 +149,33 @@ nav button:hover{
 
 .hero-content button a:hover{
     color: rgb(13, 19, 33);
+}
+
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.why-web-dev{
+    padding: 80px 97px;
+    margin: 0 auto;
+}
+
+.why-web-dev-head{
+    text-align: center;
+    padding: 48px;
+    margin: 0 auto;
+}
+
+.why-web-dev-head h3{
+    margin: 24px 0;
+}
+
+.why-web-dev-body{
+    display: flex;
+    padding: 48px;
+}
+
+.why-web-dev-body p{
+    text-align: left;
 }
