@@ -183,6 +183,7 @@ main{
 .main-section-head{
     padding: 80px 97px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .my-inspiration .main-section-head{
@@ -201,3 +202,69 @@ main{
     border-radius: 16px;
     width: 100%;
 }
+
+.my-current-target-body{
+    display: flex;
+}
+
+.my-current-target-body div{
+    padding: 40px;
+}
+
+.my-current-target-body div:nth-child(1){
+    background-color: rgba(255, 76, 30, 0.05);
+}
+
+.my-current-target-body div:nth-child(2){
+    background-color: rgba(0, 76, 232, 0.05);
+}
+
+.my-current-target-body div:nth-child(3){
+    background-color: rgba(255, 223, 0, 0.05);
+}
+
+.my-current-target-body h4{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+}
+
+.my-current-target-body p{
+    text-align: left;
+}
+
+.my-current-target-body a{
+    text-align: left;
+    font-weight: 700;
+    color: rgb(13, 19, 33);
+}
+
+.my-next-target-body>div{
+    display: flex;
+    /* margin: 0px 24px; */
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    margin: 24px 0px;
+    padding: 40px;
+}
+
+.my-next-target .main-section-head{
+    padding-bottom: 10px;
+}
+
+.my-next-target-body img{
+    width: 94px;
+    object-fit: contain;
+    margin: 0px 24px;
+}
+
+.my-next-target-body p{
+    text-align: left;
+}
+
+.my-next-target-body a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+}
+
