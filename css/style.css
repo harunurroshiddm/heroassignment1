@@ -92,7 +92,7 @@ nav button:hover{
 .hero{
     background-image: url(../media/Hero-bg.png);
     background-repeat: repeat-x;
-    background-size: contain;
+    background-size: cover;
     background-position: center;
     text-align: center;
 }
