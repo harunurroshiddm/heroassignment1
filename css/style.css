@@ -7,7 +7,6 @@
 }
 
 body{
-    width: 1440px;
     margin: 0 auto;
 }
 
@@ -92,8 +91,8 @@ nav button:hover{
 
 .hero{
     background-image: url(../media/Hero-bg.png);
-    background-repeat: repeat-x; */
-    background-size: cover;
+    background-repeat: repeat-x;
+    background-size: contain;
     background-position: center;
     text-align: center;
 }
