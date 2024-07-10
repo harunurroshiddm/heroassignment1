@@ -268,3 +268,42 @@ main{
     font-weight: 700;
 }
 
+.need-support{
+    text-align: center;
+    border-radius: 16px;
+    padding: 64px 48px 64px 48px;
+    /* background-image: url(../media/handshake.jpg); */
+    background: linear-gradient(180deg,rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url('../media/handshake.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.need-support h3{
+    color: rgb(255, 255, 255);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 700;
+}
+.need-support p{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.need-support input[type="email"]{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+    width: 684px;
+    height: 57px;
+}
+
+.need-support input[type="button"]{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+}
