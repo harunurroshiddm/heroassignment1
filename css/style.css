@@ -87,6 +87,7 @@ nav button:hover{
     background-color: rgb(13, 19, 33);
     color: rgb(255, 255, 255);
     border: 1px solid rgb(13, 19, 33);
+    padding: 17px 24px;
 }
 
 .hero{
@@ -94,7 +95,6 @@ nav button:hover{
     background-repeat: repeat-x; */
     background-size: cover;
     background-position: center;
-    /* height: 652px; */
     text-align: center;
 }
 
@@ -103,10 +103,6 @@ nav button:hover{
     margin: 0 auto;
     padding: 26px 0;
 }
-
-/* .hero img{
-    margin-top: 26px;
-} */
 
 .hero-content h1{
     font-size: 48px;
@@ -240,7 +236,6 @@ main{
 
 .my-next-target-body>div{
     display: flex;
-    /* margin: 0px 24px; */
     box-sizing: border-box;
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 16px;
@@ -272,7 +267,6 @@ main{
     text-align: center;
     border-radius: 16px;
     padding: 64px 48px 64px 48px;
-    /* background-image: url(../media/handshake.jpg); */
     background: linear-gradient(180deg,rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)),url('../media/handshake.jpg');
     background-size: cover;
     background-position: center;
@@ -305,5 +299,22 @@ main{
     border: 1px solid rgba(13, 19, 33, 0.15);
     border-radius: 8px;
     background: rgb(255, 255, 255);
-    padding: 19px 20px 19px 20px;
+    padding: 17px 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.need-support input[type="button"]:hover{
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0 20px;
+}
+
+footer p{
+    font-size: 20px;
+    font-weight: 600;
 }
