@@ -253,6 +253,11 @@ main{
     margin: 0px 24px;
 }
 
+.my-next-target-body h4{
+    color: rgb(13, 19, 33);
+    opacity: 1;
+}
+
 .my-next-target-body p{
     text-align: left;
 }
@@ -277,11 +282,13 @@ main{
     font-family: Azeret Mono;
     font-size: 32px;
     font-weight: 700;
+    opacity: 1;
 }
 .need-support p{
     color: rgb(255, 255, 255);
     font-size: 16px;
     font-weight: 400;
+    opacity: 1;
 }
 
 .need-support input[type="email"]{
@@ -317,4 +324,6 @@ footer{
 footer p{
     font-size: 20px;
     font-weight: 600;
+    color: rgb(13, 19, 33);
+    opacity: 1;
 }
